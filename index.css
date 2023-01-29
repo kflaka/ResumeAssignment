@@ -1,13 +1,39 @@
 body {
+
+    background-color: rgb(203, 204, 247);
+    font-family:'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    margin: 60px;
+    color: #231c4c;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #68618f;
+    font-style: italic;
     text-align: center;
-    background-color: rgb(255, 250, 240);
-    padding-left: 60px;
-    padding-right: 60px;
 }
 
 img {
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin: 20px;
+    margin-right: 40px;
+}
+
+#outlook, #home {
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+#footer {
+    float: left;
+}
+
+#fss {
+    margin: 40px;
 }
 
 ul {
@@ -24,4 +50,8 @@ ul {
 
 h3 {
     font-style: italic;
+}
+
+p {
+    font-size: 18px;
 }
